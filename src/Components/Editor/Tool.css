@@ -1,0 +1,191 @@
+
+  .formCLass {
+    position: relative;
+    right: 18vw;
+  }
+
+.PurchaseBtn {
+    right: 22vw;
+}
+
+.Tool {
+    height: 100%;
+    width: 50%;
+}
+
+.PushUp-7{
+    position: relative;
+    top: -140%;    
+}
+
+
+
+.UserPic {
+    position: relative;
+    top: 32%;    
+    width: 23%;
+}
+.UploadPiceBottom {
+    bottom: 9vw;    
+    }
+    
+.NoHeight {
+height: 0;
+
+}
+
+.ND {
+    display: none;
+}
+.ant-page-header-heading-title {
+float: right;
+}
+
+.shirt {
+    background-image: url('./pshirtL.png');    
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:contain;
+	height:13vw;
+	/* width:200px; */
+}
+.LargeShirt {
+    height:17vw ;
+}
+.UploadPice2 {
+    height: 10vw;
+    width: 30vw;
+}
+
+.Scale6 {
+    transform: scale(3.5);
+}
+
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 30vw;
+    height: 13vw;
+    top: 3vw;
+  }
+  .previewImageClass {
+    
+    width: 8vw;
+}
+.previewImageWrapperClass {
+    height: 13vw;
+    width: 7vw;
+}
+  .btn {
+    border-width: 0;
+    width: 9vw;    
+    height: 4vw;   
+    border-radius: 0;     
+    background-color: transparent;
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+.onethirdhight {
+    height: 13vw;
+    transform:  scale(.9);
+}
+.site-page-header {
+    border: 1px solid rgb(235, 237, 240);
+  }
+
+
+  @media(max-width:967px){
+    .Scale6 {
+        transform: scale(2.5);
+    }
+  }
+
+@media(max-width:767px){
+
+    .formCLass {
+        position: relative;
+        right: 0;
+      }
+    .PurchaseBtn {
+        right: 30vw;
+    }
+
+    .upload-btn-wrapper {
+        position: relative;
+        overflow: hidden;
+        display: inline-block;
+        width: 36vw;
+        height: 55vw;
+        top: 16vw;
+      }
+
+
+
+      .UploadPiceBottom {
+        bottom: 45vw;
+        
+        }
+
+.previewImageClass {
+    width: 36vw;
+    
+}
+.previewImageWrapperClass {
+    left: 43px;
+    width: 36vw;
+    height: 55vw;
+    position: relative;
+}
+  .btn {
+    border-width: 0;
+    width: 16vw;    
+    height: 16vw;   
+    border-radius: 0;     
+    background-color: transparent;
+  }
+    .Scale6 {
+        transform: scale(4.5);
+    }
+    .shirt { 
+        height:15vw;
+        /* width:200px; */
+    }
+
+    .LargeShirt {
+        height:75vw ;
+    }
+    .UploadPice2 {
+        height: 22vw;
+        width: 30vw;
+    }
+    .PushUp-7{
+        position: relative;
+        top: -200%;
+        
+    }
+    .UserPic {
+        width: 6vw;
+    }
+    .Tool {
+        height: 100%;
+        width: 100%;
+        transform: scale(.8);
+    }
+    .onethirdhight {
+        height: 14vw;        
+    }
+    
+/* 
+.any-col-12[editor]{
+    flex: 0 0 100%;
+    max-width: 100%;
+} */
+    
+}
